@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <!-- animate -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- scroll-top -->
+    <link rel="stylesheet" href="./css/scroll-to-top.css">
+    <!-- fancybox -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <!-- toggle -->
+    <link rel="stylesheet" href="./css/toggle.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- searchbox -->
+    <link rel="stylesheet" href="./css/searchbox.css">
+    <!-- main stylesheet  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="./css/media-query.css">
+    <title>Good4me</title>
+</head>
+<body>
+    <a id="scroll-to-top-button"></a>
+    <!-- header start -->
+    <header class="wow fadeIn">
+        <!-- header-1 start -->
+        <div class="header-1 ">
+            <div class="container d-flex">
+                <!-- header-1-free-delivery -->
+                <div class="header-1-free-delivery">
+                    Afterpay, Laybuy & Genoapay | Free Delivery 
+                    <span>New Zealand + Australia*</span>   
+                <!-- header-1-free-delivery end -->
+                </div>
+                <!-- header-1-signup-location -->
+                <div class="d-flex">
+                    <div class="signup-login">
+                        <a href="#"> Sign In / Register</a>  
+                    </div>  
+                    <div class="country d-flex">
+                        <img src="./image/US-flag.jpg">
+                        <select>
+                            <option selected class="selected">USD</option>
+                            <option>IND</option>
+                            <option>UK</option>
+                            <option>NZ</option>
+                            <option>PAK</option>
+                        </select>
+                    </div>
+                <!-- header-1-signup-location end -->
+                </div>
+            <!-- container end -->
+            </div>
+        <!-- header-1 end -->
+        </div>
+        <!-- header-2 start -->
+        <div class="header-2">
+            <!-- container start -->
+            <div class="container d-flex p-relative">
+                <!-- logo start -->
+                <div class="logo p-relative">
+                    <img src="./image/logo-Good4Me.png" alt="Logo-Good4Me">
+                    <a href="#" class="image-link"></a>
+                </div> 
+                <!-- nav start  -->
+                <nav >      
+                    <ul class="d-flex navbar" id="show-toggle">
+                        <li><a href="#" class="font-18">HOME</a></li>
+                        <li><a href="#" class="font-18">SHOP</a></li>
+                        <li><a href="#" class="font-18">FAQ'S</a></li>
+                        <li><a href="#" class="font-18">STOCKISTS</a></li>
+                        <li><a href="#" class="font-18">WHOLESALE</a></li>
+                        <li><a href="#" class="font-18">CONTACT</a></li> 
+                    </ul>
+                </nav>
+                <!-- search-cart -->
+                <div class="search-bag d-flex ">
+                    <div class="search p-relative">
+                        <img src="./image/search-icon.svg" alt="search">
+                        <a href="#" class="image-link" onclick="showSearchbox()"></a>
+                    </div>
+                    <div class="searchbox"  id="searchbox" >
+                        <input type="text" name="search" placeholder="Search"><button type="submit" class="theme-button"><a href="#">Search</a></button>
+                    </div>
+                    <div class="bag p-relative">
+                        <img src="./image/bag-icon.svg" alt="cart">
+                        <a href="#" class="image-link"></a>
+                    </div>
+                    <div class="toggle" id="toggle">
+                        <a href="#" onclick="showNavbar()">
+                            <span class="top"></span>
+                            <span class="mid"></span>
+                            <span class="bottom"></span>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            <!-- container end -->
+        </div>
+        <!-- header-2 end -->
+    </header>
+    <!-- banner start -->
+    <section class="banner-section wow fadeIn">
+    <!-- container start -->
+        <div class="container d-flex">
+            <div class="banner-text">
+                <h4>Good4Me</h4>
+                <h1>Apple Cider Vinegar</h1>
+                <p>Good4Me Apple Cider Vinegar gummies are the newest addition to your morning health and well-being regime.</p>
+                <!-- theme button -->
+                <div class="theme-button theme-button-2">
+                    <a href="#">
+                        <span>SHOP NOW</span>    
+                    </a>
+                </div>
+            </div>  
+        </div>
+    <!-- container end -->
+    </section>
+
+    <!-- deals-section -->
+    <section class="deals-section wow fadeIn">
+        <!-- container start -->
+        <div class="container t-align-center">
+            <h3>GOOD4ME DEAL</h3>
+            <div><span></span></div>
+            <p class="font-18">Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy products today!</p>
+            <div class="card-container ">
+                <ul class="d-flex">
+                    <!-- deals card 1 -->
+                    <li class="p-relative">
+                        <div class="card-image">
+                            <img src="./image/deals-1.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-18">MULTI-VITAMIN: EVERYDAY WELLNESS</p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- deals card 2 -->
+                    <li class="p-relative">
+                        <div class="card-image">
+                            <img src="./image/deals-2.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-18">FULL RANGE VALUE PACK (SAVE 33%)</p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- deals card 3  -->
+                    <li class="p-relative">
+                        <div class="card-image">
+                            <img src="./image/deals-3.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-18">VITAMIN C: IMMUNITY SUPPORT </p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- deals card 4 -->
+                    <li class="p-relative">
+                        <div class="card-image">
+                            <img src="./image/deals-4.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 font-18">VITAMIN C: IRON: ENERGY SUPPORT</p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- card container end -->
+        </div>
+        <!-- container end -->
+    </section>
+
+    <!-- services-section -->
+    <section class="services-section wow fadeIn">
+        <!-- container start -->
+        <div class="container">
+            <ul class="d-flex">
+                <!-- service 1 -->
+                <li>
+                    <div class="service-image">
+                        <img src="./image/service-1.png">
+                    </div>
+                    <div class="service-text">
+                        <h5 class="heading-weight-500">WORLDWIDE SHIPPING</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer 
+                            adipiscing elit. Aenean</p>
+                    </div>
+                </li>
+                <!-- service 2 -->
+                <li>
+                    <div class="service-image">
+                        <img src="./image/service-2.png">
+                    </div>
+                    <div class="service-text">
+                        <h5 class="heading-weight-500">30 DAYS GUARANTEE</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer 
+                            adipiscing elit. Aenean</p>
+                    </div>
+                </li>
+                <!-- service 3 -->
+                <li>
+                    <div class="service-image">
+                        <img src="./image/service-3.png">
+                    </div>
+                    <div class="service-text">
+                        <h5 class="heading-weight-500">SECURED PAYMENTS</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer 
+                            adipiscing elit. Aenean</p>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+        <!-- container end -->
+    </section>
+
+    <!-- take-control-section -->
+    <section class="take-control-section p-relative wow fadeIn">
+        <!-- container start -->
+        <div class="container d-flex">
+            <!-- take-control-text -->
+            <div class="take-control-text">
+                <h2 class="heading-weight-600">TAKE CONTROL OF YOUR HEALTH</h2>
+                <p class="heading-weight-500">The Good4Me range has been formulated based on scientific & traditional evidence.</p>
+                <p class="heading-weight-500">Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
+                <p class="heading-weight-500">Made in New Zealand from local and imported ingredients.</p>
+                <div class="theme-button">
+                    <a href="#">
+                        BROWSE OUR RANGE
+                    </a>
+                </div>
+            </div>
+            <!-- take-control-image -->
+            <div class="take-control-image d-flex">
+                <div class="take-control-image-section-1 d-flex">
+                    <div class="grid-image">
+                        <img src="./image/take-control-1.jpg">
+                    </div>
+                    <div class="grid-image">
+                        <img src="./image/take-control-2.jpg">
+                    </div>
+                </div>
+                <div class="full-height-img">
+                    <img src="./image/take-control-3.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- container end-->
+    </section>
+    <!-- our-products-section -->
+    <section class="our-products-section wow tada">
+        <!-- container start -->
+        <div class="container t-align-center">
+            <h3>OUR PRODUCTS ARE</h3>
+            <div class="card-container">
+                <ul class="d-flex">
+                    <!-- card 1 -->
+                    <li class="p-relative">
+                        <div class="card-image">
+                            <img src="./image/our-products-1.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">MULTI-VITAMIN (3 MONTH SUPPLY)</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 2 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/our-products-2.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">VITAMIN C: IMMUNITY SUPPORT</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 3 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/our-products-3.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">MULTI-VITAMIN (3 MONTH SUPPLY)</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 4 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/our-products-4.jpg">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">APPLE CIDER VINEGAR (3 MONTH SUPPLY)</p>
+                            <p class="price font-14">$94.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="theme-button">
+                <a href="#">
+                    VIEW ALL PRODUCTS
+                </a>
+            </div>
+        </div>
+        <!-- container end -->
+    </section>
+
+    <!-- reviews-section -->
+    <section class="reviews-section wow fadeIn">
+        <!-- container start -->
+        <div class="container">
+            <div class="review-slider">
+                <!-- review card 1 start-->
+                <div class="review-card d-flex first-review">
+                    <div class="review-text heading-weight-500">
+                        <h6 class="heading-weight-500">REAL REVIEWS</h6>
+                        <h3 class="font-30 heading-weight-500">REAL RESULTS</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="review heading-weight-500">“We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on our website.We can't wait until you are a part of our Good4Me Family.”</h4>
+                        <p class="heading-weight-600">_Chloe H.</p>
+                    </div>
+                    <div class="review-image">
+                        <img src="./image/review-1.jpg">
+                    </div>
+                </div>
+                <!-- review card 1 end-->
+                <!-- review card 2 start-->
+                <div class="review-card d-flex first-review">
+                    <div class="review-text heading-weight-500">
+                        <h6>REAL REVIEWS </h6>
+                        <h3 class="font-30 heading-weight-500">REAL ISSUES</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="review heading-weight-500">“We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on our website.We can't wait until you are a part of our Good4Me Family.”</h4>
+                        <p class="heading-weight-600">_Chloe H.</p>
+                    </div>
+                    <div class="review-image">
+                        <img src="./image/take-control-3.jpg">
+                    </div>
+                </div>
+                <!-- review card 2 end-->
+            </div><!-- review slider end --> 
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- all-product-section -->
+    <section class="all-product-section wow fadeIn">
+        <!-- container start -->
+        <div class="container t-align-center">
+            <h3>SHOP ALL</h3>
+            <div class="card-container">
+                <ul class="d-flex">
+                    <!-- card 1 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/all-product-1.png">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">
+                                **PRE-ORDER** HAIR, SKIN & NAILS (5 MONTH SUPPLY)</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 2 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/all-product-2.png">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">
+                                DETOX + BLOAT SUPPORT VALUE PACK</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 3 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/all-product-3.png">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">
+                                PROBIOTICS: GUT HEALTH + BLOAT SUPPORT</p>
+                            <p class="price font-14">$39.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                    <!-- card 4 -->
+                    <li class="p-relative">
+                        <div class="card-image on-sale">
+                            <img src="./image/all-product-4.png">
+                        </div>
+                        <div class="card-text">
+                            <p class="heading-weight-500 card-heading font-14">
+                                APPLE CIDER VINEGAR</p>
+                            <p class="price font-14">$94.95 NZD <s>$199.75 NZD</s></p>
+                        </div>
+                        <a href="#" class="image-link"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="theme-button">
+                <a href="#">
+                    VIEW ALL PRODUCTS
+                </a>
+            </div>
+        </div>
+        <!-- container end -->
+    </section>
+
+    <!-- news-section -->
+    <section class="news-section wow fadeIn">
+        <!-- container start -->
+        <div class="container t-align-center">
+            <h3 class="heading-weight-500">LATEST NEWS</h3>
+            <div class="card-container ">
+                <ul class="d-flex">
+                    <!-- card-1 -->
+                    <li>
+                        <div class="card-image p-relative">
+                            <img src="./image/news-1.jpg">
+                            <a href="#" class="image-link"></a>
+                        </div>
+                        <div class="card-text">
+                            <p class="font-14 heading-weight-500 date">August 26, 2020</p>
+                            <h5 class="heading-weight-500 card-heading p-relative">
+                                WE DONATE ONE WEEKS SUPPLY
+                                <a href="#" class="image-link"></a>
+                            </h5>
+                            <p>We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
+                        </div>
+                        <div class="theme-button theme-button-2">
+                            <a href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </li>
+                    <!-- card-2 -->
+                    <li>
+                        <div class="card-image p-relative">
+                            <img src="./image/news-2.jpg">
+                            <a href="#" class="image-link"></a>
+                        </div>
+                        <div class="card-text">
+                            <p class="font-14 heading-weight-500 date">August 26, 2020</p>
+                            <h5 class="heading-weight-500 card-heading p-relative">
+                                WE DONATE ONE WEEKS SUPPLY
+                                <a href="#" class="image-link"></a>
+                            </h5>
+                            <p>We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
+                        </div>
+                        <div class="theme-button theme-button-2">
+                            <a href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </li>
+                    <!-- card-3 -->
+                    <li>
+                        <div class="card-image p-relative">
+                            <img src="./image/news-3.jpg">
+                            <a href="#" class="image-link"></a>
+                        </div>
+                        <div class="card-text">
+                            <p class="font-14 heading-weight-500 date">August 26, 2020</p>
+                            <h5 class="heading-weight-500 card-heading p-relative">
+                                WE DONATE ONE WEEKS SUPPLY
+                                <a href="#" class="image-link"></a>
+                            </h5>
+                            <p>We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
+                        </div>
+                        <div class="theme-button theme-button-2">
+                            <a href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>         
+            <!-- card-container end -->
+        </div>
+        <!-- container end -->
+    </section>
+
+    <!-- images-slider-section -->
+    <section class="image-slider-section t-align-center wow fadeIn ">
+        <h3 class="heading-weight-500">#GOOD4ME</h3>
+        <div class="image-slider d-flex">
+            <!-- card-1 -->
+            <div class="image-card ">
+                <a data-fancybox="gallery" data-src="./image/image-slide-1.jpg" >
+                    <img src="./image/image-slide-1.jpg" alt="image-slide-1" />
+                </a>    
+            </div>
+            <!-- card-2 -->
+            <div class="image-card ">
+                <a data-fancybox="gallery" data-src="./image/image-slide-2.jpg" >
+                    <img src="./image/image-slide-2.jpg" alt="image-slide-2" />
+                </a>    
+            </div>
+            <!-- card-3 -->
+            <div class="image-card">
+                <a data-fancybox="gallery" data-src="./image/image-slide-3.jpg" >
+                    <img src="./image/image-slide-3.jpg" alt="image-slide-3" />
+                </a>    
+            </div>
+            <!-- card-4 -->
+            <div class="image-card">
+                <a data-fancybox="gallery" data-src="./image/image-slide-4.jpg" >
+                    <img src="./image/image-slide-4.jpg" alt="image-slide-4" />
+                </a>    
+            </div>
+            <!-- card-5 -->
+            <div class="image-card">
+                <a data-fancybox="gallery" data-src="./image/image-slide-5.jpg" >
+                    <img src="./image/image-slide-5.jpg" alt="image-slide-5" />
+                </a>    
+            </div>
+            <!-- card-6 -->
+            <div class="image-card">
+                <a data-fancybox="gallery" data-src="./image/image-slide-6.jpg" >
+                    <img src="./image/image-slide-6.jpg" alt="image-slide-6" />
+                </a>    
+            </div>
+            <!-- card-1 -->
+            <div class="image-card">
+                <a data-fancybox="gallery" data-src="./image/image-slide-1.jpg" >
+                    <img src="./image/image-slide-1.jpg" alt="image-slide-1" />
+                </a>    
+            </div>
+        </div>    
+    </section>
+    <!-- footer -->
+    <footer class="wow fadeIn">
+        <!-- container start -->
+        <div class="container">
+            <div class="footer-section-1 d-flex">
+                <!-- footer logo section -->
+                <div class="footer-logo t-align-center">
+                    <div class="logo p-relative">
+                        <img src="./image/logo-Good4Me.png">
+                        <a href="#" class="image-link"></a>
+                    </div>
+                    <p>Good health is important, so all of our products have been carefully designed to bring out the best in you.</p>
+                </div>
+                <!-- footer newsletter section -->
+                <div class="footer-newsletter t-align-center">
+                    <h4 class="heading-weight-500">Keep In Touch</h4>
+                    <p>Subscribe to receive new product updates, be the first to know about sales, and more.</p>
+                    <div class="email-input">
+                        <input type="email" placeholder="Enter your email address">
+                        <button type="submit" class="heading-weight-600"> <a href="#"> Subscribe</a></button>
+                    </div>
+                </div>
+                <!-- footer more info section -->
+                <div class="footer-more-info">
+                    <h6 class="heading-weight-500">MORE INFO</h6>
+                    <ul>
+                        <li><a href="#">Shipping & Delivery
+                           </a></li>
+                        <li><a href="#">
+                            Refund Policy
+                           </a></li>
+                        <li><a href="#">
+                            Partner Program
+                            </a></li>
+                        <li><a href="#">
+                            Wholesale Portal
+                            </a></li>
+                        <li><a href="#">
+                            You Buy, We Donate
+                            </a></li>
+                        <li><a href="#">
+                            Privacy Policy
+                            </a></li>
+                        <li><a href="#">
+                            Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- section-1 end -->
+            <!-- footer-copyright -->
+            <div class="footer-copyright d-flex">
+                <div class="social-media">
+                    <a href="facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="pinterest.com" target="_blank">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>    
+                </div>
+                <div class="copyright d-flex">
+                    <p>&copy; 2021,<a href="#"><span>GOOD4ME</span></a>.</p>
+                    <p>Powered by <a href="shopify.com" target="_blank">Shopify</a> </p>
+                </div>
+                <!-- payment-ways -->
+                <div class="payment-ways d-flex">
+                    <div class="p-relative">
+                        <img src="./image/payment-1.jpg">
+                        <a href="amex.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-2.jpg">
+                        <a href="ipay.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-3.jpg">
+                        <a href="googlepay.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-4.jpg">
+                        <a href="rupay.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-5.jpg">
+                        <a href="paypal.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-6.jpg">
+                        <a href="dpay.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-7.jpg">
+                        <a href="visa.com" target="_blank" class="image-link"></a>
+                    </div>
+                    <div class="p-relative">
+                        <img src="./image/payment-8.jpg">
+                        <a href="visa.com" target="_blank" class="image-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container end -->
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+    </script>
+    <!-- toggle -->
+    <script src="./js/toggle.js"></script>
+    <!-- scroll-to-top -->
+    <script src="./js/scroll-to-top.js"></script>
+    <!-- fancy box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+    });
+
+    </script>
+    <!-- slider -->
+    <script src="./js/slick.min.js"></script>
+    <!-- review slider -->
+    <script>
+        $('.review-slider').slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            dots: false,
+            infinite: true,
+            speed: 1000,
+            fade: true,
+            cssEase: 'linear'
+            });
+        $('.image-slider').slick({
+            slidesToShow:6,
+            slidesToScroll:1,
+            arrows:false,
+            dots: false,
+            autoplay:true,
+            infinite: true,
+            speed: 1000,
+            centerMode: true,
+            responsive: [
+            {
+                breakpoint: 1550,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    speed: 1000,
+                    centerMode: true,
+                    arrows:false,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    speed: 1000,
+                    centerMode: true,
+                    arrows:false,
+                }
+                },
+                {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    speed: 1000,
+                    centerMode: true,
+                    arrows:false,
+                }
+                },
+                {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    speed: 1000,
+                    centerMode: true,
+                    arrows:false,
+                }
+                },
+                {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    speed: 1000,
+                    centerMode: true,
+                    arrows:false,
+                }
+                }
+            ]
+            });
+    </script>
+    <!-- hide searchbox navbar -->
+    <script src="./js/searchbox.js"></script>
+    <!-- animation -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

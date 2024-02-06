@@ -1,0 +1,27 @@
+.toggle a span{padding-block:1px ;background-color:#000 ;margin-bottom: 3px;padding-inline: 7px;clear: both;display: block;}
+.toggle a span:last-child{margin-bottom: 0;}
+.toggle{display: none;margin-left: 10px;}
+.toggle .top,.toggle .bottom{transition-property: transform;transition-duration: .8s; }
+.close .mid{display: none;}
+.toggle.close{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.toggle.close span{margin-bottom: 0;}
+.close .top{transform: rotate(-45deg) translate(-3px,-1px);transform-origin: center center;}
+.close .bottom{transform: rotate(45deg) translate(-3px, 2px);transform-origin: center center;}
+.header-2 .container{position: relative;}
+@media screen and (max-width:767px) {
+    .toggle{display:flex;align-items: center;}
+    ul.navbar{display: none;width: 100%;}   
+}
+@media screen and (max-width:767px) {
+    .header-2{position: relative;}
+    .navbar.show-navbar{display: block;position: absolute;right: 0;background-color: #000;padding-block: 0;top: 120%;}
+    .navbar.show-navbar li a{color: #fff;padding-block: 40px;}
+    .navbar.show-navbar li{border-bottom: 1px solid #fff;margin-right: 0;display: block;padding-block: 20px;}
+    .navbar.show-navbar li:hover{background-color: #fff;}
+    .navbar.show-navbar li:hover a{color: #000;}
+    .navbar.show-navbar li:last-child{border-bottom: 0;}
+
+}   
+@media screen and (max-width:575px) {
+    .navbar.show-navbar li{padding-left: 20px;padding-block: 18px;}
+}

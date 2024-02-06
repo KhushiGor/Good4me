@@ -1,0 +1,21 @@
+.searchbox{width: 100%; position: absolute;right: 0;top:110%;display: none;}
+.searchbox input{width: 100%;padding: 8px 10px;border: none;background-color: #f4f4f4;margin-right: 30px;font-size: 18px;border-radius: 8px;}
+.searchbox input:focus{outline: none;}
+.searchbox button{border: none;font-size: 18px;background-color: transparent;}
+.searchbox button a{border-radius: 4px;font-weight: 700;}
+.searchbox.show-searchbox {display: flex;align-items: center;}
+@media screen and (max-width:1780px) {
+    .searchbox input{height: 80%;}
+    .searchbox input::placeholder{font-size: 14px;}
+    .searchbox button a{padding: 9px 14px;font-size: 14px;}
+}
+@media screen and (max-width:991px) {
+    .searchbox input{margin-right: 20px;}
+    .searchbox input, .searchbox input::placeholder{font-size: 12px;}
+    .searchbox button a{padding: 6px 15px;font-size: 12px;}
+}
+@media screen and (max-width:575px) {
+    .searchbox{padding-inline: 20px;}
+    .searchbox input, .searchbox input::placeholder{font-size: 12px;}
+    .searchbox button a{padding: 6px 15px;font-size: 12px;}
+}
